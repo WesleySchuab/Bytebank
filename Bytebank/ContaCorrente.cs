@@ -40,8 +40,8 @@ namespace Bytebank
                 }
                 else
                 {
-                    this.saldo -= valor;
-                    destino.saldo += valor;
+                    this.Sacar(valor);
+                    destino.Depositar(valor);
                     return true;
                 }
                 

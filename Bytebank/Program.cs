@@ -18,11 +18,11 @@ Console.WriteLine("Saldo da conta do Maria = " + contaDaMaria.saldo);
 
 
 contaDoAndre.Depositar(100);
-Console.WriteLine( "Saldo pos deposito"+contaDoAndre.saldo);
+Console.WriteLine( "Saldo pos deposito "+contaDoAndre.saldo);
 
 if (contaDoAndre.Sacar(300) == true)
 {
-    Console.WriteLine("Saldo da conta do André pós-saque =" + contaDoAndre.saldo);
+    Console.WriteLine("Saldo da conta do André pós-saque = " + contaDoAndre.saldo);
 }
 else
 {
