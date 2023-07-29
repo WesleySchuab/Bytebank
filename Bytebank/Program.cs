@@ -11,5 +11,11 @@ Console.WriteLine("Saldo da conta do André = " + contaDoAndre.saldo);
 contaDoAndre.Depositar(100);
 Console.WriteLine( "Saldo pos deposito"+contaDoAndre.saldo);
 
-contaDoAndre.Sacar(50);
-Console.WriteLine("Saldo pos saque" + contaDoAndre.saldo);
+if (contaDoAndre.Sacar(300) == true)
+{
+    Console.WriteLine("Saldo da conta do André pós-saque =" + contaDoAndre.saldo);
+}
+else
+{
+    Console.WriteLine("Saldo insuficiente para saque.");
+}
