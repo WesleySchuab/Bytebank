@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Bytebank
 {
-    internal class ContaCorrente
+    //código omitido
+
+    namespace bytebank
     {
+        public class ContaCorrente
+        {
+            public int numero_agencia;
+            public string conta;
+            public string titular;
+            public double saldo;
+        }
     }
 }
