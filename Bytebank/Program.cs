@@ -8,6 +8,15 @@ contaDoAndre.saldo = 100;
 
 Console.WriteLine("Saldo da conta do André = " + contaDoAndre.saldo);
 
+ContaCorrente contaDaMaria = new ContaCorrente();
+contaDaMaria.titular = "André Silva";
+contaDaMaria.numero_agencia = 15;
+contaDaMaria.conta = "1010-5";
+contaDaMaria.saldo =300;
+
+Console.WriteLine("Saldo da conta do Maria = " + contaDaMaria.saldo);
+
+
 contaDoAndre.Depositar(100);
 Console.WriteLine( "Saldo pos deposito"+contaDoAndre.saldo);
 
@@ -19,3 +28,5 @@ else
 {
     Console.WriteLine("Saldo insuficiente para saque.");
 }
+contaDoAndre.Transferir(50, contaDaMaria);
+Console.WriteLine(  "Conta do andre pós transferência "+contaDoAndre.saldo+" Conta da maria "+contaDaMaria.saldo);
