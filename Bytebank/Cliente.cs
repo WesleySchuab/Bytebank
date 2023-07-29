@@ -9,7 +9,7 @@ namespace Bytebank
     public class Cliente
     {
         public string nome;
-        public string Cpf;
+        public string cpf;
         public string profissao;
     }
 }

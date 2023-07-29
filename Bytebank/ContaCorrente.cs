@@ -13,9 +13,10 @@ namespace Bytebank
         public class ContaCorrente
         {
             public int numero_agencia;
-            public string conta;
-            public string titular;
+            public string conta;          
             public double saldo;
+
+            public Cliente titular;
             public void Depositar(double valor)
             {
                 this.saldo += valor;
