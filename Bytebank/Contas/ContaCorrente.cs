@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Bytebank.Titular;
 
 namespace Bytebank
 {
@@ -46,6 +47,21 @@ namespace Bytebank
                     return true;
                 }
                 
+            }
+            public double ObterSaldo()
+            {
+                return this.saldo;
+            }
+            public void DefinirSaldo(double valor)
+            {
+                if (valor < 0)
+                {
+                    return;
+                }
+                else
+                {
+                    this.saldo = valor;
+                }
             }
         }
     }
