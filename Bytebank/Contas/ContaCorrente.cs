@@ -14,7 +14,10 @@ namespace Bytebank
         public class ContaCorrente
         {
             public int numero_agencia;
-            public string conta;          
+            //public string conta;          
+            //private string conta;
+            //Propiedade Auto implementada
+            public string Conta { get; set; }
             public double saldo;
 
             public Cliente titular;
