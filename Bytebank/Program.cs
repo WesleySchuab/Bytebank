@@ -56,3 +56,10 @@ using Bytebank.Titular;
 //conta2.conta = "9999-X";
 //conta2.numero_agencia = 18;
 //conta2.saldo = 500;
+
+ContaCorrente conta3 = new ContaCorrente();
+conta3.DefinirSaldo(-10);
+
+
+conta3.DefinirSaldo(-10);
+Console.WriteLine(conta3.ObterSaldo());
