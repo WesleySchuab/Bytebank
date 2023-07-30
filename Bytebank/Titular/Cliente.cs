@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Bytebank.Titular
 {
-    public class Cliente
+    public Class Cliente
     {
-        public string nome;
-        public string cpf;
-        public string profissao;
-    }
+    public string Nome { get; set; }
+
+    public string Cpf { get; set; }
+
+    public string Profissao { get; set; }
+}
 }
