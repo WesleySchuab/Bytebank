@@ -48,6 +48,21 @@ namespace Bytebank
                 }
                 
             }
+            public double ObterSaldo()
+            {
+                return this.saldo;
+            }
+            public void DefinirSaldo(double valor)
+            {
+                if (valor < 0)
+                {
+                    return;
+                }
+                else
+                {
+                    this.saldo = valor;
+                }
+            }
         }
     }
 }
