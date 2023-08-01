@@ -17,7 +17,7 @@ namespace Bytebank
             public string conta;          
             public double saldo;
 
-            public Cliente titular;
+            public Cliente Titular { get; set; }
             public void Depositar(double valor)
             {
                 this.saldo += valor;

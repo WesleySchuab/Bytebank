@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bytebank.Titular
 {
-    public Class Cliente
+    public class Cliente
     {
     public string Nome { get; set; }
 
