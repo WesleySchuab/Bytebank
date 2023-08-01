@@ -32,7 +32,7 @@ namespace Bytebank
             public string Conta { get; set; }
             public double saldo;
 
-            public Cliente titular;
+            public Cliente Titular { get; set; }
             public void Depositar(double valor)
             {
                 this.saldo += valor;
