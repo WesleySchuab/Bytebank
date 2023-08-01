@@ -29,10 +29,10 @@ namespace Bytebank
             //public string conta;          
             //private string conta;
             //Propiedade Auto implementada
-            public string Conta { get; set; }
-            public double saldo;
 
-            public Cliente titular;
+            public double saldo;
+            public string Conta { get; set; }         
+            public Cliente Titular { get; set; }
             public void Depositar(double valor)
             {
                 this.saldo += valor;
