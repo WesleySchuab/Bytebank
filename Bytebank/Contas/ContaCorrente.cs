@@ -13,7 +13,7 @@ namespace Bytebank
     {
         public class ContaCorrente
         {
-            public int numero_agencia;
+            public int Numero_agencia;
             public string conta;          
             public double saldo;
 
@@ -63,6 +63,7 @@ namespace Bytebank
                     this.saldo = valor;
                 }
             }
+            
         }
     }
 }
