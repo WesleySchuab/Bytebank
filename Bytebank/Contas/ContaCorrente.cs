@@ -21,7 +21,7 @@ namespace Bytebank
                 {
                     if (value > 0)
                     {
-                        this.numero_agencia = value;
+                        this.Numero_agencia = value;
                     }
                 }
 
@@ -78,7 +78,12 @@ namespace Bytebank
                     this.saldo = valor;
                 }
             }
-            
+            public ContaCorrente(int numero_agencia, string numero_conta)
+            {
+                this.Numero_agencia = numero_agencia;
+                this.Conta = numero_conta;
+            }
+
         }
     }
 }
